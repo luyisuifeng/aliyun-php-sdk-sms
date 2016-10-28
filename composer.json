@@ -11,7 +11,7 @@
 	"aliyun-php-sdk-sms"
   ],
     "homepage": "https://github.com/luyisuifeng/aliyun-php-sdk-sms",
-	"minimum-stability" => "dev",
+	"minimum-stability":"dev",
     "type": "library",
     "license": "MIT",
     "authors": [
