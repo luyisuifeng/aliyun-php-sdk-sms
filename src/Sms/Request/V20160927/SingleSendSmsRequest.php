@@ -1,4 +1,5 @@
-<?php namespace Aliyun\Core\Sms\Request\V20160927;
+<?php 
+namespace Aliyun\Core\Sms\Request\V20160927;
 /*
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
