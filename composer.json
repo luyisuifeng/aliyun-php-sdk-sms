@@ -19,7 +19,7 @@
             "email": "1105549812@qq.com"
         }
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "require": {
 		"php": ">=5.3.0"
 	},
