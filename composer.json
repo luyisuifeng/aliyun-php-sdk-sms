@@ -1,0 +1,31 @@
+{
+    "name": "luyisuifeng/aliyun-php-sdk-sms",
+    "description": "This is a composer/packagist fot Aliyun-Sms OpenAPI",
+	"keywords": [
+    "aliyun",
+    "open-api",
+    "php",
+    "sdk",
+	"Sms",
+	"Aliyun-Sms",
+	"aliyun-php-sdk-sms"
+  ],
+    "homepage": "https://github.com/luyisuifeng/aliyun-php-sdk-sms",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "sifan",
+            "email": "1105549812@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+		"php": ">=5.3.0"
+	},
+	"autoload": {
+        "psr-4": {
+			"Aliyun\\Core\\": "src"
+		}
+    }
+}
