@@ -1,4 +1,4 @@
-<?php namespace Aliyun\Core\Exceptions;
+<?php namespace Aliyun\Core\Exception;
 
 /*
  * Licensed to the Apache Software Foundation (ASF) under one
