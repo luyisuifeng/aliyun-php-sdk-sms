@@ -3,6 +3,14 @@
 # install
 $ composer require luyisuifeng/aliyun-php-sdk-sms
 #demo
+use Aliyun\Core\Profile\DefaultProfile;  
+use Aliyun\Core\DefaultAcsClient;  
+use Aliyun\Core\Exception\ClientException;  
+use Aliyun\Core\Exception\ServerException;  
+use Aliyun\Core\Regions\Endpoint;  
+use Aliyun\Core\Regions\EndpointProvider;  
+use Aliyun\Core\Regions\EndpointConfig;  
+use Aliyun\Core\Sms\Request\V20160927\SingleSendSmsRequest;  
 $iClientProfile = DefaultProfile::getProfile('cn-hangzhou', 'your accessKeyId', 'your accessSecret);  
 $client = new DefaultAcsClient($iClientProfile);  
 $config = new EndpointConfig();  
