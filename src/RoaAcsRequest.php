@@ -18,8 +18,6 @@
  * specific language governing permissions and limitations
  * under the License.
  */
-use Aliyun\Core\Auth\Credential;
-use Aliyun\Core\Auth\ISigner;
 
 abstract class RoaAcsRequest extends AcsRequest
 {
