@@ -14,7 +14,7 @@ use Aliyun\Core\Sms\Request\V20160927\SingleSendSmsRequest;
 $iClientProfile = DefaultProfile::getProfile('cn-hangzhou', 'your accessKeyId', 'your accessSecret);  
 $client = new DefaultAcsClient($iClientProfile);  
 $config = new EndpointConfig();  
-$endpoint = new Endpoint(config::get('cn-hangzhou'), $config->getRegionIds(), $config->getProductDomains());  
+$endpoint = new Endpoint('cn-hangzhou', $config->getRegionIds(), $config->getProductDomains());  
 $endpoints = array( $endpoint );  
 EndpointProvider::setEndpoints($endpoints);  
 $request = new SingleSendSmsRequest();  
