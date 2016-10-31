@@ -18,8 +18,8 @@
  * specific language governing permissions and limitations
  * under the License.
  */
-use Aliyun\Core\Exceptions\ClientException;
-use Aliyun\Core\Exceptions\ServerException;
+use Aliyun\Core\Exception\ClientException;
+use Aliyun\Core\Exception\ServerException;
 use Aliyun\Core\Http\HttpHelper;
 use Aliyun\Core\Profile\DefaultProfile;
 use Aliyun\Core\Regions\EndpointProvider;
