@@ -2,6 +2,7 @@
 阿里云短信服务提供composer解决方案
 # install
 $ composer require luyisuifeng/aliyun-php-sdk-sms
+# 发布v1.0.1版本，修复exception命名空间问题，增加demo
 #demo
 use Aliyun\Core\Profile\DefaultProfile;  
 use Aliyun\Core\DefaultAcsClient;  
